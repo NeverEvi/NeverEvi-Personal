@@ -23,10 +23,12 @@ const rainDrops = [];
 for (let x = 0; x < columns; x++) {
   rainDrops[x] = 1;
 }
-
-const draw = () => {
+const clearRect = () => {
   context.fillStyle = 'rgba(0, 0, 0, 0.05';
   context.fillRect(0, 0, canvas.width, canvas.height);
+}
+const draw = () => {
+  clearRect();
 
   context.fillStyle = '#0F0';
   context.font = fontSize + 'px monospace';
@@ -41,7 +43,20 @@ const draw = () => {
     rainDrops[i]++;
   }
 };
+function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
 
+  // Redraw content on canvas if needed
+  // example:
+  clearRect();
+}
+
+// Initial call to resize canvas
+resizeCanvas();
+
+// Call resizeCanvas() whenever the browser window is resized
+window.addEventListener('resize', resizeCanvas);
 setInterval(draw, 80);
 
 
