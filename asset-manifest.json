@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NeverEvi-Personal/static/css/main.719a9ef5.css",
-    "main.js": "/NeverEvi-Personal/static/js/main.0ac5851d.js",
+    "main.css": "/NeverEvi-Personal/static/css/main.9e9f8211.css",
+    "main.js": "/NeverEvi-Personal/static/js/main.f547f719.js",
     "static/js/453.8633fd65.chunk.js": "/NeverEvi-Personal/static/js/453.8633fd65.chunk.js",
     "static/media/Pokeball.svg": "/NeverEvi-Personal/static/media/Pokeball.2db7de44dd9ea6558c0113d7d9e3db9d.svg",
     "static/media/Linkedin.svg": "/NeverEvi-Personal/static/media/Linkedin.a236a02cbeb24525fd3bcf55fc6e41c6.svg",
@@ -10,12 +10,12 @@
     "static/media/facebook.svg": "/NeverEvi-Personal/static/media/facebook.845cde860a16351b36fffb0c6a681834.svg",
     "static/media/twitch.svg": "/NeverEvi-Personal/static/media/twitch.89bed83895129e3549b238a54cdcf6db.svg",
     "static/media/X.svg": "/NeverEvi-Personal/static/media/X.8232028372c6af47dc3a1b255f964ee2.svg",
-    "main.719a9ef5.css.map": "/NeverEvi-Personal/static/css/main.719a9ef5.css.map",
-    "main.0ac5851d.js.map": "/NeverEvi-Personal/static/js/main.0ac5851d.js.map",
+    "main.9e9f8211.css.map": "/NeverEvi-Personal/static/css/main.9e9f8211.css.map",
+    "main.f547f719.js.map": "/NeverEvi-Personal/static/js/main.f547f719.js.map",
     "453.8633fd65.chunk.js.map": "/NeverEvi-Personal/static/js/453.8633fd65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.719a9ef5.css",
-    "static/js/main.0ac5851d.js"
+    "static/css/main.9e9f8211.css",
+    "static/js/main.f547f719.js"
   ]
 }
