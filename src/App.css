@@ -1,11 +1,25 @@
+
+
 .App {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   padding-top: 10px;
   text-align: center;
+  position: fixed;
+  top: 50%; /* Place the element at 50% from the top of the viewport */
+  left: 50%; /* Place the element at 50% from the left of the viewport */
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  
 }
-
+.head {
+  border: 2px solid #000 ;
+  border-radius: 20%;
+  background-color: rgba(20, 20, 20, 0.3);
+  color: chartreuse;
+  z-index: 1;
+}
 h1 {
   margin: 0;
   font-size: 3.2em;
@@ -28,20 +42,15 @@ h2 {
   padding-bottom: 0;
   will-change: filter;
   transition: filter 300ms;
+  filter: drop-shadow(0 0 2px #44f50eec);
 }
 .logo:hover {
-  filter: drop-shadow(0 0 3em #34c00aaa);
+  filter: drop-shadow(0 0 10px #44f50eec);
+}
+
+.pagelink:hover {
+  filter: drop-shadow(0 0 3em #44f50ecc);
 }
 .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
